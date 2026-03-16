@@ -1,12 +1,12 @@
 'use client';
 
-import { useState } from "react";
+import React, { useState } from "react";
 
-// ── Trip metadata ──────────────────────────────────────────────────────────────
+// ── DATA SECTION ──
 const TRIP_META = {
   "title": "Aix-en-Provence Journey",
   "dateRange": "May 1 – May 10, 2026",
-  "summary": "An exquisite 10-day journey through the South of France, blending the aristocratic art and history of Aix-en-Provence, the glittering coastal runs and Niçoise flavors of Nice, and the kinetic cultural revival and rugged Calanques of Marseille. Tailored for an active traveler with a taste for luxury dining, modern art, and breathtaking Mediterranean landscapes."
+  "summary": "An exquisite 10-day journey through the South of France, blending art, history, and active lifestyle."
 };
 
 // ── Data ───────────────────────────────────────────────────────────────────────
